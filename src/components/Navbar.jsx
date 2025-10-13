@@ -20,13 +20,13 @@ const Navbar = () => {
           <a href="#eintöpfe">Eintöpfe</a>
         </li>
         <li>
-          <a href="#main">Glavna jela</a>
+          <a href="#main">Hauptgerichte</a>
         </li>
         <li>
           <a href="#desserts">Desserts</a>
         </li>
         <li>
-          <a href="#drinks">Drinks</a>
+          <a href="#heissgetränke">Getränke</a>
         </li>
       </ul>
 
