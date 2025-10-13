@@ -125,6 +125,13 @@ export const menuData = [
   {
     id: 303,
     category: "main",
+    name: "Pečenje",
+    description: "Kalbsschmorbraten mit Ofenkartoffel",
+    price: "18€ / 1kg - 50€",
+  },
+  {
+    id: 303,
+    category: "main",
     name: "Mešano meso Ⓐ",
     description:
       "Wurst, Hähnchenkeule, Hähnchenfillet, Kalbfleisch, zwei Cevapcici",
