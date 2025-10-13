@@ -14,8 +14,10 @@ function App() {
       <main className="main-content">
         <MenuSection title="Breakfast & Snacks" id="breakfast" />
         <MenuSection title="Sandwiches" id="sandwiches" />
-        <MenuSection title="Main Dishes" id="main" />
-        <MenuSection title="Desserts & Coffee" id="desserts" />
+        <MenuSection title="Eintöpfe" id="eintöpfe" />
+
+        <MenuSection title="Hauptgerichte" id="main" />
+        <MenuSection title="Desserts" id="desserts" />
         <MenuSection title="Drinks & Beverages" id="drinks" />
       </main>
 

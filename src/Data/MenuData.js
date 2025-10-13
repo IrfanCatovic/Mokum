@@ -50,19 +50,21 @@ export const menuData = [
     description: "Maisbrei in Kajmak-Sahnesoße",
     price: "9€",
   },
+
+  //sandwich
   {
     id: 101,
     category: "sandwiches",
     name: "Tost klub sendvič",
     description:
-      "Hähnchen, Ei, Prosciutto, Burgersauce, Tomate, Salat, Brot, Pommes Frites",
+      "Hähnchen, Ei, Prosciutto, Burgersauce, Tomate, Salat, Pommes Frites",
     price: "10€",
   },
   {
     id: 102,
     category: "sandwiches",
     name: "Topli sendvič",
-    description: "Prosciutto, Sucuk, Ei, Salat, Kajmak, Brot",
+    description: "Prosciutto, Sucuk, Ei, Salat, Kajmak",
     price: "8€",
   },
   {
@@ -74,20 +76,101 @@ export const menuData = [
     price: "12€",
   },
 
-  // Main Dishes
+  //corbe
   {
-    id: 3,
-    category: "main",
-    name: "Ćevapi",
-    description: "Tradicionalni ćevapi iz Novog Pazara",
-    price: "€10.90",
+    id: 201,
+    category: "eintöpfe",
+    name: "Teleća čorba Ⓐ",
+    description: "Kalbfleischsuppe",
+    price: "8€",
   },
   {
-    id: 4,
+    id: 202,
+    category: "eintöpfe",
+    name: "Pasulj Ⓐ",
+    description: "Bohneneintopf mit Prosciutto",
+    price: "10€",
+  },
+  {
+    id: 203,
+    category: "eintöpfe",
+    name: "Ribić u kajmaku Ⓖ",
+    description: "Kalbfleisch in Kajmak-Sahnesoße",
+    price: "18€",
+  },
+  {
+    id: 204,
+    category: "eintöpfe",
+    name: "Gulaš Ⓐ",
+    description: "Rindergulasch mit Kartoffelpürree",
+    price: "10€",
+  },
+
+  // Glavna jela
+  {
+    id: 301,
     category: "main",
-    name: "Pljeskavica",
-    description: "Sočna domaća pljeskavica od 100% junećeg mesa",
-    price: "€11.50",
+    name: "Ćevapi 5/7/10 Ⓐ",
+    description: "Cevapcici, Zwiebel, Ajvar",
+    price: "7/9/12€",
+  },
+  {
+    id: 302,
+    category: "main",
+    name: "Punjena pljeskavica ⒶⒼ",
+    description:
+      "Pljeskavica gefüllt mit Käse und Prosciutto, dazu Pommes und Zwiebeln",
+    price: "13,50€",
+  },
+  {
+    id: 303,
+    category: "main",
+    name: "Mešano meso Ⓐ",
+    description:
+      "Wurst, Hähnchenkeule, Hähnchenfillet, Kalbfleisch, zwei Cevapcici",
+    price: "22€",
+  },
+  {
+    id: 304,
+    category: "main",
+    name: "Pohovana piletina ⒶⒸ",
+    description: "Paniertes Hähnchenfillet, Pommes frites, Remoulade, Salat",
+    price: "15€",
+  },
+  {
+    id: 305,
+    category: "main",
+    name: "Piletina Mexikana Ⓐ",
+    description: "Hähnchenfillet, gegrilltes Gemüse, pikante Sojasauce, Reis",
+    price: "16€",
+  },
+  {
+    id: 306,
+    category: "main",
+    name: "Teletina u sosu od pečuraka / na žaru ⒶⒼ",
+    description: "Kalbfleisch, Reis, Salat, Pilzrahmsoße",
+    price: "22/20€",
+  },
+  {
+    id: 307,
+    category: "main",
+    name: "Piletina u sosu od pečurka / na žaru ⒶⒼ",
+    description: "Hähnchenfillet, Reis, Salat, Pilzrahmsoße",
+    price: "16/14€",
+  },
+  {
+    id: 308,
+    category: "main",
+    name: "Batak",
+    description: "Hähnchenkeule, Reis, Salat",
+    price: "13€",
+  },
+  {
+    id: 309,
+    category: "main",
+    name: "Teleći ramstek Ⓐ",
+    description: "Kalbsrumpsteak, Kräuterbutter, Bratkartoffeln",
+    price: "25€",
   },
 
   // Desserts & Coffee

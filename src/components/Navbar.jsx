@@ -12,11 +12,15 @@ const Navbar = () => {
         <li>
           <a href="#breakfast">Breakfast</a>
         </li>
+
         <li>
           <a href="#sandwiches">Sandwiches</a>
         </li>
         <li>
-          <a href="#main">Main Dishes</a>
+          <a href="#eintöpfe">Eintöpfe</a>
+        </li>
+        <li>
+          <a href="#main">Glavna jela</a>
         </li>
         <li>
           <a href="#desserts">Desserts</a>
