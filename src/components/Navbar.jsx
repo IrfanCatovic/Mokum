@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 import "../styles/navbar.css";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <nav className="navbar">
-      <h1 className="logo">MOKUM</h1>
+      <img
+        src={logo}
+        alt="Mokum Logo"
+        style={{ height: "40px", width: "auto" }}
+      />
 
       <ul className={`nav-links ${open ? "open" : ""}`}>
         <li>
