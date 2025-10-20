@@ -4,6 +4,9 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  function handleClick() {
+    setOpen(false);
+  }
 
   return (
     <nav className="navbar">
@@ -15,23 +18,35 @@ const Navbar = () => {
 
       <ul className={`nav-links ${open ? "open" : ""}`}>
         <li>
-          <a href="#breakfast">Breakfast</a>
+          <a href="#breakfast" onClick={handleClick}>
+            Breakfast
+          </a>
         </li>
 
         <li>
-          <a href="#sandwiches">Sandwiches</a>
+          <a href="#sandwiches" onClick={handleClick}>
+            Sandwiches
+          </a>
         </li>
         <li>
-          <a href="#eintöpfe">Eintöpfe</a>
+          <a href="#eintöpfe" onClick={handleClick}>
+            Eintöpfe
+          </a>
         </li>
         <li>
-          <a href="#main">Hauptgerichte</a>
+          <a href="#main" onClick={handleClick}>
+            Hauptgerichte
+          </a>
         </li>
         <li>
-          <a href="#desserts">Desserts</a>
+          <a href="#desserts" onClick={handleClick}>
+            Desserts
+          </a>
         </li>
         <li>
-          <a href="#heissgetränke">Getränke</a>
+          <a href="#heissgetränke" onClick={handleClick}>
+            Getränke
+          </a>
         </li>
       </ul>
 

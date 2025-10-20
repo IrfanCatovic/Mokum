@@ -1,18 +1,15 @@
 import React from "react";
 import "../styles/hero.css";
 
-const Hero = () => {
+function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h2>Willkommen bei MOKUM</h2>
-        <p>
-          Authentische Balkangerichte in Frankfurt – frisch, traditionell und
-          mit Leidenschaft zubereitet.
-        </p>
+        <h1>Willkommen bei MOKUM</h1>
+        <p>Authentische Balkan-Küche im Herzen von Frankfurt</p>
       </div>
     </section>
   );
-};
+}
 
 export default Hero;

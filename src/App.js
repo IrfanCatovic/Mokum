@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import MenuSection from "./components/MenuSection";
 import Footer from "./components/Footer";
+
 import "./index.css";
 
 function App() {
